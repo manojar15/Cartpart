@@ -42,17 +42,7 @@ export class CartComponent implements OnInit {
   }
 
   form = new FormGroup({
-    /*firstName: new FormControl('', Validators.required),
-    lastName: new FormControl('', Validators.required),
-    email: new FormControl('', [
-      Validators.required,
-      Validators.email
-    ]),
-    phone1: new FormControl('', [
-      Validators.required,
-      Validators.maxLength(10),
-      Validators.minLength(10)
-    ]),*/
+
     password: new FormControl('', [
       Validators.required,
       Validators.maxLength(4),
@@ -64,17 +54,7 @@ export class CartComponent implements OnInit {
    });
 
    form2 = new FormGroup({
-    /* firstName: new FormControl('', Validators.required),
-     lastName: new FormControl('', Validators.required),
-     email: new FormControl('', [
-       Validators.required,
-       Validators.email
-     ]),
-     phone1: new FormControl('', [
-       Validators.required,
-       Validators.maxLength(10),
-       Validators.minLength(10)
-     ]),*/
+
      address: new FormControl('', Validators.required),
     });
 
